@@ -1,0 +1,3 @@
+[submodule "Assets/Modules/Event Driven Switch"]
+	path = Assets/Modules/Event Driven Switch
+	url = https://github.com/ThiagoDAraujoS/Unity3d-Event-Driven-Switch-System.git
