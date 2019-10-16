@@ -1,6 +1,3 @@
 [submodule "Assets/Modules/Event Driven Switch"]
 	path = Assets/Modules/Event Driven Switch
 	url = https://github.com/ThiagoDAraujoS/Unity3d-Event-Driven-Switch-Module.git
-[submodule "Assets/Modules/3rd Person Controller"]
-	path = Assets/Modules/3rd Person Controller
-	url = https://github.com/ThiagoDAraujoS/Unity3d-3rd-Person-Controller-Module.git
