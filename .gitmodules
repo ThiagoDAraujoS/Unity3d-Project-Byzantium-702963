@@ -1,0 +1,3 @@
+[submodule "Assets/Modules/Hexagon Matrix"]
+	path = Assets/Modules/Hexagon Matrix
+	url = https://github.com/ThiagoDAraujoS/CSharp-Hexagon-Matrix-Module.git
