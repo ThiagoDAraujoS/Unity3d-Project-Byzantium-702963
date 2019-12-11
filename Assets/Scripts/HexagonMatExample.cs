@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HexagonMatExample : MonoBehaviour
 {
-    Hex.Board<int> matrix = new Hex.Board<int>(5, 5, 1f);
+    Hex.Board<int> matrix = new Hex.Board<int>(5, 5, Mathf.Sqrt(3f)/3f);
     // Start is called before the first frame update
     void Start() {
         matrix.Foreach((Hex.Vector index, ref int content) => {
