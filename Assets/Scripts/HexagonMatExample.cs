@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class HexagonMatExample : MonoBehaviour
 {
-    Hex.Board<int> matrix = new Hex.Board<int>(5, 5, Mathf.Sqrt(3f)/3f);
+    public GameObject hexagonCell;
+    Hex.Square<int> matrix = new Hex.Square<int>(15, 16);
     // Start is called before the first frame update
     void Start() {
         matrix.Foreach((Hex.Vector index, ref int content) => {
-            GameObject o = new GameObject();
-            o.transform.position = matrix.Position(index);
+            GameObject o = Instantiate(hexagonCell,index.Position(1f),transform.rotation,transform);
             o.name = index.ToString();
-            o.transform.parent = transform;
         });
     }
 
