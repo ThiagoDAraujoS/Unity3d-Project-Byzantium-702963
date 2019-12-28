@@ -1,3 +1,6 @@
 [submodule "Assets/Modules/Hexagon Matrix"]
 	path = Assets/Modules/Hexagon Matrix
 	url = https://github.com/ThiagoDAraujoS/CSharp-Hexagon-Matrix-Module.git
+[submodule "Assets/Modules/Virtual Dice"]
+	path = Assets/Modules/Virtual Dice
+	url = https://github.com/ThiagoDAraujoS/Unity3d-Virtual-Dice.git

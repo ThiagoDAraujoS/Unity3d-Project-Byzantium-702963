@@ -9,7 +9,7 @@ public class HexagonMatExample : MonoBehaviour
     // Start is called before the first frame update
     void Start() {
         matrix.Foreach((Hex.Vector index, ref int content) => {
-            GameObject o = Instantiate(hexagonCell,index.Position(1f),transform.rotation,transform);
+            GameObject o = Instantiate(hexagonCell,index,transform.rotation,transform);
             o.name = index.ToString();
         });
     }
