@@ -14,6 +14,7 @@ public class HexagonMatExample : MonoBehaviour
         });
     }
 
+    public Dice.Group<Dice.Die> dice;
     // Update is called once per frame
     void Update()
     {

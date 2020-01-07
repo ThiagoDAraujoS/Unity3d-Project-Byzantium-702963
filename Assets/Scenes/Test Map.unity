@@ -235,6 +235,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hexagonCell: {fileID: 1398087745929153728, guid: ac1eccd08000b62448cae111b224bb71,
     type: 3}
+  dice:
+    OnRoll:
+      m_PersistentCalls:
+        m_Calls: []
+    OnResult:
+    - m_PersistentCalls:
+        m_Calls: []
+    - m_PersistentCalls:
+        m_Calls: []
+    - m_PersistentCalls:
+        m_Calls: []
+    - m_PersistentCalls:
+        m_Calls: []
+    - m_PersistentCalls:
+        m_Calls: []
+    - m_PersistentCalls:
+        m_Calls: []
 --- !u!4 &1276224384
 Transform:
   m_ObjectHideFlags: 0
